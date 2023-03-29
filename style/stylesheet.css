@@ -5,3 +5,49 @@
     margin: 0;
     padding: 0;
 }
+
+/* Apply the dark theme to the page */
+html {
+    color-scheme: dark light;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Makes the display of the whole body into flex in column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    width: 100dvw;
+}
+
+/* Stylizes the Navigation bar section */
+
+/* Flexbox allows centering of the navbar */
+.top-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.navbar {
+    width: 60%;
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo>h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navlink-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+}
