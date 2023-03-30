@@ -54,6 +54,7 @@ body {
     color: #ffffff;
 }
 
+/* *******Style for the hero section******* */
 .hero-section {
     width: 70%;
     height: 400px;
@@ -80,6 +81,11 @@ body {
     background-color: #3882f6;
     border-radius: 0.5rem;
     border: none;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background-color: #216fec;
 }
 
 .image-box {
@@ -89,4 +95,109 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* *****Style for the third part of the page***** */
+.flex-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+    width: 100%;
+    padding: 2rem;
+    color: #1f2937;
+    background-color: white;
+}
+
+.info-container {
+    display: inherit;
+    width: 60%;
+    gap: 5px;
+}
+
+.info-box {
+    display: inherit;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.frame {
+    width: 9rem;
+    height: 9rem;
+    border: 4px solid #3882f6;
+    border-radius: 1rem;
+}
+
+/* *****Style for the forth part of the page***** */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #e6e7eb;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.75rem;
+    text-align: justify;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+/* *****Style for the fifth part of the page***** */
+.action-section {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 70%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.btn-action {
+    padding: 0.5rem 1.25rem;
+    margin: 1rem 0;
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-action:hover {
+    background-color: #216fec;
+}
+
+/* *****Style for the last(footer) part of the page***** */
+footer {
+    padding: 2rem;
 }
