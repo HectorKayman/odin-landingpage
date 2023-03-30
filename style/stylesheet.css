@@ -16,11 +16,12 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1f2937;
     width: 100dvw;
 }
 
-/* Stylizes the Navigation bar section */
+/* Style for the Navigation bar section */
 
 /* Flexbox allows centering of the navbar */
 .top-header {
@@ -31,7 +32,7 @@ body {
 }
 
 .navbar {
-    width: 60%;
+    width: 70%;
     display: inherit;
     justify-content: space-between;
     align-items: center;
@@ -50,4 +51,42 @@ body {
 .nav-link {
     text-decoration: none;
     cursor: pointer;
+    color: #ffffff;
+}
+
+.hero-section {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.title-box {
+    width: 46%;
+    height: 60%;
+}
+
+.title-box h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-signup {
+    padding: 0.5rem 1.25rem;
+    margin: 1rem 0;
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.image-box {
+    width: 50%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
